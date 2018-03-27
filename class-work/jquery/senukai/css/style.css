@@ -1,0 +1,75 @@
+body{
+
+}
+.container{
+    margin-top: 30px;
+}
+ul.menu  li  {
+    list-style-type: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+ul.menu{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+ul.menu  li a {
+    color: #ccc;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sriftas{
+   
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    vertical-align: middle;
+    text-align: center;
+}
+#facebook{
+    width: 100px;
+    
+}
+#google{
+    width: 100px;
+    background-color: #3399cc;
+}
+#prisijungti{
+    background-color: red;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+#registruotis{
+    background-color: red;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.reg{
+    color: #ccc;
+    font-weight: bold;
+}
+.icon_pos{
+    position: absolute;
+}
+.bendras{
+    padding-left: 40px;
+}
+.login {
+    position: absolute;
+    min-width: 252px;;
+    min-height: 100px;
+    background-color:gray;
+    right: 0;
+    z-index: 25;
+    font-size: 13px;
+    border: 1px solid rgba(245, 240, 240, 0.24);
+    display:none;
+    padding: 10px;
+   
+}
+
+    
+

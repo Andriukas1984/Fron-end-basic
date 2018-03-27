@@ -1,0 +1,30 @@
+body{
+    background-image: url("spiration dark.png");
+	
+}
+
+#app{
+	
+	background: linear-gradient(60deg, #000033, #6666ff, #e6e6ff);
+	border:1px solid #aaa;
+	border-radius: 5px;
+    padding:10px;
+    
+}
+.tarpas {
+	padding: 5px;
+}
+.isplesti{
+	width: 100%;
+}
+h6 {
+    color: white;
+}
+.container {
+    padding-top: 50px;
+}
+.korekcija {
+    padding-top: 30px;
+    
+
+}

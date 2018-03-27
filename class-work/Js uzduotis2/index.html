@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Js uzduotis</title>
+		
+		<meta charset="UTF-8">
+		
+        
+        <script>
+            function showtext() {
+                
+                var vardas = document.getElementById("vardas").value;
+                var pavarde = document.getElementById("pavarde").value;
+                
+                var kreipinys = pakeisti_teksta(vardas);
+                //console.log("Labas " + kreipinys)
+
+
+
+                var t = "Labas rytas " + vardas + " " + pavarde + "!";
+               
+               document.getElementById("result").innerHTML =t;
+
+               //cosole.log(t);
+            }
+
+            function pakeisti_teksta(tekstas){
+                var x = tekstas + "ai";
+                x= x + " :) ";
+                return x;
+            }
+        </script>
+	</head>
+	<body>
+        <h1>Hello world</h1>
+        <div>
+            <button id="btn" onclick="showtext()">Go</button>
+        </div>
+        <div>
+            Vardas:
+            <input type="text" id="vardas" placeholder="Iveskite varda..." /> 
+          </div>
+          <div>
+              Pavarde:  
+            <input type="text" id="pavarde" placeholder="Iveskite pavarde..." />
+        </div>
+        <div id="result">
+
+        </div>
+        
+
+
+
+  </body>
+</html>

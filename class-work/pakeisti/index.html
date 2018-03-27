@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>pakeisti</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+<script>
+    function pakeisti(){
+        var t = document.getElementById("text1").value;
+        var f1 = document.getElementById("zodis1").value;
+        var f2 = "testas";
+
+       // console.log(tekstas);
+      //  console.log(fraze);
+        var result ="";
+        result = t.replace(f1, f2);
+
+        document.getElementById("result").innerHTML = result;
+    }
+
+</script>
+</head>
+
+<body>
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="app">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    
+                                    Iveskite fraze
+                                    <div class="tarpas"></div>
+                                          
+                                        <textarea class="form-control" rows="5" id="text1" placeholder="..."></textarea>
+                                </div>
+                                <div class="tarpas"></div>
+                                <div class="col-lg-6" id="result">
+                                        
+                                </div>
+                            </div>
+                            <div class="tarpas"></div>
+                            <div class="row">
+                                    <div class="col-lg-6"> 
+                                        Iveskite zodi pakeitimui
+                                        <div class="tarpas"></div>
+                                        <input type="text" class="form-control" id="zodis1" placeholder="...">
+                                    </div>
+                            </div>
+                            <div class="tarpas"></div>
+                            <div class="row">
+                                    <div class="col-lg-6">
+                                        <button id="palyg" class="btn-primary btn-md" onclick="pakeisti()">
+                                            <i class="fa fa-handshake-o" aria-hidden="true"></i> Pakeisti</button>
+                                            
+                                     </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+        </div>
+
+
+
+    
+        
+    <script src="js/script.js"></script>
+</body>
+
+</html>

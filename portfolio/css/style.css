@@ -1,0 +1,53 @@
+body {
+  overflow: hidden;
+  position: relative;
+}
+.container{
+	height: 600px;
+	background-color: grey;
+}
+.foto{
+	position:absolute;
+    left:800px;
+	top: 150px;
+    z-index: 100;
+	
+}
+.foto img{
+	border-radius: 50%;
+	padding: 5px;
+	background-color: #E3EAEF;
+	
+}
+.prad-sriftas{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	color: white;
+	text-align: center;
+}
+.prad-btn{
+	position: absolute;
+	left: 600px;
+	top: 450px;
+	background-color: #E3EAEF;
+	color: black;
+	
+}
+.prad-btn{
+	
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+

@@ -1,0 +1,14 @@
+.mystyle{
+    background-color: blue;
+}
+.no-padding {
+    padding: 0px;
+}
+#plugin-wrapper{
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+    background-color: red;
+
+}

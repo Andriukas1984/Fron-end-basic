@@ -1,0 +1,32 @@
+body{
+    
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #f5f8fa;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.plotis{
+    text-align: left;
+    min-width: 110px;
+}
+#vardas{
+    min-width: 230px;
+   
+}
+#data{
+    min-width: 230px;
+   
+}
+.tarpas{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+h2{
+    margin-top: 15px;
+}

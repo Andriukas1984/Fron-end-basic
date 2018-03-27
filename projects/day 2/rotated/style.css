@@ -1,0 +1,41 @@
+.Normal {
+    margin: 200px  auto;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rotated:hover {
+    transform: rotate(45deg);
+    transition: 1s linear 0.5s;
+    background-color:blue;
+    
+}
+.Div{
+    width: 1000px;
+    height: 1250px;
+    margin:200px auto;
+    
+
+}
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+  

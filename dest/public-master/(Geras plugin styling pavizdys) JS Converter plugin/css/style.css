@@ -1,0 +1,35 @@
+body{
+	background:url("../img/hip-square.png");
+}
+
+
+
+#app{
+	
+	background:#fff;
+	border:1px solid #aaa;
+	border-radius: 5px;
+	padding:10px;
+}
+
+#app_table{
+	width:100%;
+}
+
+.container{
+	padding-top:50px;
+}
+
+.credits{
+	text-align:center;
+}
+
+.middletext{
+	color: #aaa;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 28px;
+}
+		
+		
